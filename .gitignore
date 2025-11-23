@@ -1,3 +1,5 @@
 node_modules/
 .env
 tournaments.json
+*.log
+.DS_Store

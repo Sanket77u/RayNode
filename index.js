@@ -19,7 +19,7 @@ client.commands = new Collection();
 
 const commandHandler = new CommandHandler(client);
 
-client.once('ready', () => {
+client.once('clientReady', () => {
     console.log(`✅ RayNode Bot is online as ${client.user.tag}`);
     client.schedules.startScheduler();
 });
